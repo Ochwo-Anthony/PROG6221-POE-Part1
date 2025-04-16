@@ -20,7 +20,7 @@ jobs:
         dotnet-version: '9.0'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ST10395938-PROG6221-POEPart1/ST10395938-PROG6221-POEPart1.csproj
 
     - name: Build the app
       run: dotnet dotnet build ST10395938-PROG6221-POEPart1/ST10395938-PROG6221-POEPart1.csproj
