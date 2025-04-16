@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{322CBD4A-66F4-4B4B-9F26-DDF2582CC5D7}|ST10395938-PROG6221-POEPart1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{322CBD4A-66F4-4B4B-9F26-DDF2582CC5D7}|ST10395938-PROG6221-POEPart1.csproj|c:\\users\\lab_services_student\\documents\\github\\prog6221-poe-part1\\st10395938-prog6221-poepart1\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{322CBD4A-66F4-4B4B-9F26-DDF2582CC5D7}|ST10395938-PROG6221-POEPart1.csproj|solutionrelative:audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{322CBD4A-66F4-4B4B-9F26-DDF2582CC5D7}|ST10395938-PROG6221-POEPart1.csproj|c:\\users\\lab_services_student\\documents\\github\\prog6221-poe-part1\\st10395938-prog6221-poepart1\\asciiart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{322CBD4A-66F4-4B4B-9F26-DDF2582CC5D7}|ST10395938-PROG6221-POEPart1.csproj|solutionrelative:asciiart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{322CBD4A-66F4-4B4B-9F26-DDF2582CC5D7}|ST10395938-PROG6221-POEPart1.csproj|c:\\users\\lab_services_student\\documents\\github\\prog6221-poe-part1\\st10395938-prog6221-poepart1\\greetingbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{322CBD4A-66F4-4B4B-9F26-DDF2582CC5D7}|ST10395938-PROG6221-POEPart1.csproj|solutionrelative:greetingbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{322CBD4A-66F4-4B4B-9F26-DDF2582CC5D7}|ST10395938-PROG6221-POEPart1.csproj|c:\\users\\lab_services_student\\documents\\github\\prog6221-poe-part1\\st10395938-prog6221-poepart1\\textgreeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322CBD4A-66F4-4B4B-9F26-DDF2582CC5D7}|ST10395938-PROG6221-POEPart1.csproj|solutionrelative:textgreeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,45 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AsciiArt.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6221-POE-Part1\\ST10395938-PROG6221-POEPart1\\AsciiArt.cs",
-              "RelativeDocumentMoniker": "AsciiArt.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6221-POE-Part1\\ST10395938-PROG6221-POEPart1\\AsciiArt.cs",
-              "RelativeToolTip": "AsciiArt.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:02:57.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GreetingBase.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6221-POE-Part1\\ST10395938-PROG6221-POEPart1\\GreetingBase.cs",
-              "RelativeDocumentMoniker": "GreetingBase.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6221-POE-Part1\\ST10395938-PROG6221-POEPart1\\GreetingBase.cs",
-              "RelativeToolTip": "GreetingBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T13:45:14.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AudioPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6221-POE-Part1\\ST10395938-PROG6221-POEPart1\\AudioPlayer.cs",
-              "RelativeDocumentMoniker": "AudioPlayer.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6221-POE-Part1\\ST10395938-PROG6221-POEPart1\\AudioPlayer.cs",
-              "RelativeToolTip": "AudioPlayer.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBIAAAA+AAAAAAAAAA==",
+              "Title": "TextGreeting.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6221-POE-Part1\\ST10395938-PROG6221-POEPart1\\TextGreeting.cs",
+              "RelativeDocumentMoniker": "TextGreeting.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6221-POE-Part1\\ST10395938-PROG6221-POEPart1\\TextGreeting.cs",
+              "RelativeToolTip": "TextGreeting.cs",
+              "ViewState": "AgIAAAoAAACAzMzMzIwtwBgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T13:27:07.402Z",
+              "WhenOpened": "2025-04-16T15:06:03.414Z",
               "EditorCaption": ""
             },
             {
@@ -75,9 +41,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6221-POE-Part1\\ST10395938-PROG6221-POEPart1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAADgZWZmZqYlwBIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T13:23:01.137Z",
+              "WhenOpened": "2025-04-16T15:00:15.792Z",
               "EditorCaption": ""
             }
           ]
