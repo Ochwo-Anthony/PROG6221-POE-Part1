@@ -23,7 +23,7 @@ jobs:
       run: dotnet restore
 
     - name: Build the app
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet dotnet build ST10395938-PROG6221-POEPart1/ST10395938-PROG6221-POEPart1.csproj
 
     - name: Run tests
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet test ST10395938-PROG6221-POEPart1/ST10395938-PROG6221-POEPart1.csproj
