@@ -24,9 +24,12 @@ namespace ST10395938_PROG6221_POEPart1
                         throw new ArgumentException("Name cannot be empty.");
                     }
 
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"Nice to meet you, {userName}! I'm your Cybersecurity Awareness Bot.");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine($"\n╔══════════════════════════════════════════════╗");
+                    Console.WriteLine($"║  Welcome, {userName}! Your Cyber Buddy is here.  ║");
+                    Console.WriteLine($"╚══════════════════════════════════════════════╝");
                     Console.ResetColor();
+                    Console.WriteLine("Type something like 'password tips', 'safe browsing', or type 'exit' to quit.");
                     break;
                 }
 

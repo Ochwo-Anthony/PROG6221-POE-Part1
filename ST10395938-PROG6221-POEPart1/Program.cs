@@ -47,7 +47,7 @@
 
             string userName = TextGreeting.AskUserName();
 
-            
+            ResponseSystem.StartInteraction(userName);
         }
     }
 }
