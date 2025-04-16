@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+            GreetingBase text = new AsciiArt();
+            GreetingBase audio = new AudioPlayer();
+           
+            text.PlayGreeting();
+            audio.PlayGreeting();
+
+            Console.WriteLine("\nWelcome to the Cybersecurity Awareness Bot!");
+
         }
     }
 }
