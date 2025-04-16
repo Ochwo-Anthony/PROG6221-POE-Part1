@@ -6,6 +6,9 @@ Project Name: Cybersecurity Awareness Bot
 Project Description:
 The Cybersecurity Awareness Bot is a C# console application designed to educate users about cybersecurity topics. It utilizes a friendly chatbot interface where users can interact with the bot to ask questions related to topics like password safety, phishing, and safe browsing.
 
+GITHUB LINK:
+https://github.com/Ochwo-Anthony/PROG6221-POE-Part1
+
 Project Structure:
 The project has the following structure:
 
@@ -66,6 +69,40 @@ Usage:
 
 CI/CD Pipeline:
 This project is integrated with GitHub Actions for Continuous Integration/Continuous Deployment (CI/CD). The configuration is in the .github/workflows/main.yml file. Upon pushing changes to the repository, the workflow automatically builds and tests the project.
+
+    REFERENCES & CONTRIBUTIONS
+ ----------------------------------------------------------------------------
+
+REFERENCES
+
+Troelsen, A., & Japikse, P. (2022). *Pro C# 10 with .NET 6: Foundational principles and practices in programming* (11th ed.). Apress.
+
+CONTRIBUTIONS
+
+    1. ASCII Art Generator:
+        - Source : https://patorjk.com/software/taag
+        - Use    : For generating styled welcome ASCII art in the AsciiArt class.
+
+    2. Console Colors and Styling:
+        - Concept : https://learn.microsoft.com/en-us/dotnet/api/system.console.foregroundcolor
+        - Use    : For improving user interface with color-coded responses and prompts.
+
+    3. Exception Handling and User Input Validation:
+        - Tutorials : Microsoft C# Documentation, YouTube (freeCodeCamp C# tutorials)
+        - Use    : Try-catch block logic in `TextGreeting` and `ResponseSystem`.
+
+    4. Audio Playback in Console:
+        - Idea   : Adapted from community suggestions on StackOverflow:
+                  https://stackoverflow.com/questions/221925/playing-audio-file-in-c-sharp
+        - Use    : Implemented in `AudioPlayer` class with `System.Media.SoundPlayer`.
+
+    5. Chatbot Conversation Logic:
+        - Inspiration : Basic decision tree structure from beginner chatbot models.
+        - Use    : Implemented in `ResponseSystem.GetResponse()` using `string.Contains`.
+
+    6. General Formatting Tips & Visual Prompts:
+        - Community Snippets & Visual Enhancements: ChatGPT-assisted refinements.
+        - Use    : Enhanced user prompts.
 
 Contact:
 For more information or to report issues, please contact:
