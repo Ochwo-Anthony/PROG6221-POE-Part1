@@ -6,30 +6,33 @@ using System.Threading.Tasks;
 
 namespace ST10395938_PROG6221_POEPart1
 {
+    // The ResponseSystem class handles user input and provides appropriate responses related to cybersecurity.
     internal class ResponseSystem
     {
+        // The StartInteraction method initiates the interaction with the user and continuously accepts input.
         public static void StartInteraction(string userName)
         {
-         
-
-
-
+            // Infinite loop to keep the interaction going until the user exits.
             while (true)
             {
+                // Displaying the prompt for the user to ask a question in blue text.
                 Console.ForegroundColor= ConsoleColor.Blue;
                 Console.Write("\nAsk me something: ");
                 Console.ResetColor();
 
+                // Reading and trimming the user's input, converting it to lowercase.
                 string userInput = Console.ReadLine()?.Trim().ToLower();
 
+                // If the user input is empty or null, prompt them to rephrase.
                 if (string.IsNullOrEmpty(userInput))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"I didn't quite understand that, {userName}. Could you rephrase?");
+                    Console.WriteLine($"Please ask a question, {userName}. I did not detect any input!");
                     Console.ResetColor();
                     continue;
                 }
 
+                // If the user types 'exit', exit the program with a thank-you message.
                 if (userInput == "exit")
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
@@ -51,12 +54,13 @@ namespace ST10395938_PROG6221_POEPart1
   `'---'                                                   '..'                            
   
 ");
-                    Console.WriteLine($"          Thank you, {userName}! Stay safe online! 😊");
+                    Console.WriteLine($"          Thank you, {userName}! Stay safe online!");
                     Console.WriteLine(new string('*', 80));
                     Console.ResetColor();
                     break;
                 }
 
+                // Getting the appropriate response for the user input.
                 string response = GetResponse(userInput, userName);
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine(response);
@@ -64,12 +68,14 @@ namespace ST10395938_PROG6221_POEPart1
             }
         }
 
+        // The GetResponse method generates a response based on the user's input.
         private static string GetResponse(string input, string userName)
         {
             try
             {
+                // Checking if the input contains certain keywords and providing appropriate responses.
                 if (input.Contains("how are you"))
-                    return $"I'm doing well, {userName}! 😊 Ready to help you stay secure online.";
+                    return $"I'm doing well, {userName}! Ready to help you stay secure online.";
 
                 else if (input.Contains("your purpose"))
                     return "I'm your cybersecurity buddy — here to educate and protect you online.";
@@ -98,19 +104,21 @@ namespace ST10395938_PROG6221_POEPart1
                 else if (input.Contains("cloud"))
                     return "Cloud services are convenient, but always protect your accounts with strong passwords and enable 2FA.";
 
-
-               
+                // If no match is found, providing a random fallback response.
                 string[] fallbackResponses = {
                     $"Hmm, I'm not sure about that, {userName}. Try asking something like 'What is phishing?' or 'Tips for safe browsing'.",
-                    $"Interesting question! I may need an update to answer that one 😅",
+                    $"Interesting question! I may need an update to answer that one",
                     $"That's outside my expertise, {userName}. But I'm always learning!",
                     $"Cybersecurity is broad! Try narrowing your question to something like passwords, scams, or privacy.",
                 };
+
+                // Randomly selecting one of the fallback responses.
                 Random rand = new Random();
                 return fallbackResponses[rand.Next(fallbackResponses.Length)];
             }
             catch (Exception ex)
             {
+                // Handling any unexpected errors that occur during response generation.
                 return $"Oops! Something went wrong: {ex.Message}";
             }
 

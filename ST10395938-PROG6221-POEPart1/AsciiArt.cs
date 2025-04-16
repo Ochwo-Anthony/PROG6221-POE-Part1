@@ -6,22 +6,34 @@ using System.Threading.Tasks;
 
 namespace ST10395938_PROG6221_POEPart1
 {
+    // The AsciiArt class inherits from the GreetingBase class.
     internal class AsciiArt : GreetingBase
     {
         public override void PlayGreeting()
         {
+            // Set the console text color to green to highlight the ASCII art.
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(@"
-  _______     ______  ______ _____  ____   ____ _______ _  
-  / ____\ \   / /  _ \|  ____|  __ \|  _ \ / __ \__   __| | 
- | |     \ \_/ /| |_) | |__  | |__) | |_) | |  | | | |  | | 
- | |      \   / |  _ <|  __| |  _  /|  _ <| |  | | | |  | | 
- | |____   | |  | |_) | |____| | \ \| |_) | |__| | | |  |_| 
-  \_____|  |_|  |____/|______|_|  \_\____/ \____/  |_|  (_) 
+
+       _..._                                                                 .-'''-.           
+    .-'_..._''.                                                             '   _    \         
+  .' .'      '.\           /|              __.....__             /|       /   /` '.   \        
+ / .'       .-.          .-||          .-''         '.           ||      .   |     \  '        
+. '          \ \        / /||         /     .-''""'-.  `. .-,.--. ||      |   '      |  '  .|   
+| |           \ \      / / ||  __    /     /________\   \|  .-. |||  __  \    \     / / .' |_  
+| |            \ \    / /  ||/'__ '. |                  || |  | |||/'__ '.`.   ` ..' /.'     | 
+. '             \ \  / /   |:/`  '. '\    .-------------'| |  | ||:/`  '. '  '-...-'`'--.  .-' 
+ \ '.          . \ `  /    ||     | | \    '-.____...---.| |  '- ||     | |             |  |   
+  '. `._____.-'/  \  /     ||\    / '  `.             .' | |     ||\    / '             |  |   
+    `-.______ /   / /      |/\'..' /     `''-...... -'   | |     |/\'..' /              |  '.' 
+             `|`-' /       '  `'-'`                      |_|     '  `'-'`               |   /  
+               '..'                                                                     `'-'   
+
 ");
+            // Reset the console text color to default after the ASCII art.
             Console.ResetColor();
             Console.ForegroundColor= ConsoleColor.White;
-            Console.WriteLine("                     A Cyber Security Chabot");
+            Console.WriteLine("                     A Cyber Security Chatbot");
             Console.ResetColor();
         }
     }
